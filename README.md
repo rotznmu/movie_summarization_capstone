@@ -1,6 +1,4 @@
 # movie_summarization_capstone
-# stroke_prediction_capstone
-Using various attributes to predict the probability of stroke
 
 ![cover_photo](./files/cover_photo.jpg)
 
