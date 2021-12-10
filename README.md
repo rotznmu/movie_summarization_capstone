@@ -1,6 +1,6 @@
 # movie_summarization_capstone
 
-![cover_photo](./files/cover_photo.jpg)
+![cover_photo](./images/cover_photo.jpg)
 
 *Over the past few years Natural Language Processing (NLP) abilities and applications have seen a lot of growth, and text summarization is a big part of that. Text summarization is generating intelligent, accurate and coherent summaries for long pieces of text. There are two fundamental approaches to text summarization: extractive and abstractive. The extractive approach takes exact words, phrases and sentences from the original text to create a summary. The abstractive approach learns the internal representation of the text to generate new sentences for the summary.*
 
@@ -30,7 +30,7 @@ Our data consists of 2 csv files, wiki_movie_plots_deduped.csv and movies_metada
 
 * Being an NLP project, there wasn't much EDA. We did do word counts to guide our cutoffs for plot and overview lengths 
 
-![](./files/word_len_dist.png)
+![](./images/word_len_dist.png)
 
 ## 4. Models and Librariries
 
@@ -41,13 +41,13 @@ I used a few different models from a few libraries. We used the SpaCy library to
 
 First, lets look at the subjective measure. For brevity, we will only evaluate the generated summaries of one movie. It should be fairly clear that the abstractive generated summaries perform much better and are much more coherent. The sentences flow nicely into each and it seems we get a summary that looks real, compared to the awkwardly placed sentences from the extractive models.  
 
-![](./files/subj_eval.png)
+![](./images/subj_eval.png)
 
 Now let's look at the objective measures. 
 
-![](./files/cosine_sim.png)
+![](./images/cosine_sim.png)
 
-![](./files/rouge_scores.png)
+![](./images/rouge_scores.png)
 
 ## 5. Summary
 
