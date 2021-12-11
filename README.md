@@ -1,6 +1,6 @@
 # movie_summarization_capstone
 
-![cover_photo](./images/cover_photo.jpg)
+![cover_photo](./images/cover_photo.png)
 
 *Over the past few years Natural Language Processing (NLP) abilities and applications have seen a lot of growth, and text summarization is a big part of that. Text summarization is generating intelligent, accurate and coherent summaries for long pieces of text. There are two fundamental approaches to text summarization: extractive and abstractive. The extractive approach takes exact words, phrases and sentences from the original text to create a summary. The abstractive approach learns the internal representation of the text to generate new sentences for the summary.*
 
